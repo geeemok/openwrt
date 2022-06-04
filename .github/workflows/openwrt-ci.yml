@@ -64,7 +64,7 @@ jobs:
           mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/vernesong/OpenClash.git
-
+          git clone https://github.com/jerrykuku/luci-theme-argon.git
 
 
       - name: Update feeds
